@@ -465,6 +465,14 @@
         #header {
             background-image: url(who.jpg);
         }
+        #vbo {
+            font-size: 20px;
+            align-items: center;
+            align-content: center;
+            margin: 25px;
+            box-shadow: 0 0 5px cyan, 0 0 250px cyan, 0 0 500px cyan, 0 0 100000000000000px cyan, 0 0 2000000000000000000px cyan;
+            background-color: cyan;
+        }
         .text {
             color: blue;
             font-weight: 600;
