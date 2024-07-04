@@ -18,6 +18,23 @@
         color: white;
     }
     
+    #hide {
+        opacity: -10;
+    }
+    
+    #vbo {
+        font-size: 100px;
+        align-items: center;
+        align-content: center;
+        margin: 150px;
+        box-shadow: 0 0 5px cyan, 0 0 250px cyan, 0 0 500px cyan, 0 0 100000000000000px cyan, 0 0 2000000000000000000px cyan;
+        background-color: cyan;
+    }
+    
+    .hid {
+        opacity: -10;
+    }
+    
     .light {
         background-color: white;
         color: black;
@@ -256,15 +273,14 @@
         border-radius: 50px;
         transition: background 0.5s, transform 0.5s;
         margin: 10px;
-        border: 2px solid white;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15px cyan, 0 0 20px cyan, 0 0 25px cyan;
         height: 400px;
         width: 300px;
         ;
     }
-    
-    .hlo:hover {
+    /* .hlo:hover {
         box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
-    }
+    } */
     
     .services-list div h2 {
         font-size: 40px;
